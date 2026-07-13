@@ -31,8 +31,8 @@ body{
 
 .header{    
     height: 80px;
-    max-width: 1300px;
-    width: calc(100% - 40px);
+    max-width: 1150px;
+    width: 80%;
     height: 80px;
     margin: 0 auto;
     display: flex;
@@ -75,7 +75,7 @@ body{
     color: white;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     transition: .3s;
 }
@@ -109,6 +109,8 @@ body{
     flex: 1;
     display: flex;
     align-items: center;
+    width: 100%;
+    max-width: 100%;
 }
 
 
